@@ -1,0 +1,21 @@
+
+<html>
+  <head>
+    <title>Person Object</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function person(fname, lname, age, eyecolor, education, about){
+        this.firstname = fname;
+        this.lastname = lname;
+        this.age = age;
+        this.eyecolor = eyecolor;
+        this.education = education;
+        this.about = about;
+      }
+
+      myself = new person("Sujan", "Tamrakar", 26, "sky-blue", "Masters", "Someone who lacks sleep.");
+      document.write(myself.firstname + " is " + myself.age + " years old.");
+    </script>
+  </body>
+</html>

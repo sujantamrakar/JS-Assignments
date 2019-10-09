@@ -1,0 +1,25 @@
+.ants {
+  position: absolute;
+  height: 35px;
+  width: 28px;
+  background-image: url(../images/ants.gif);
+  background-size: 100% 100%;
+  transition: transform 0.1s ease;
+}
+
+.dead {
+  background-image: url(../images/blood-splatter.gif);
+}
+
+.game-wrapper {
+  position: relative;
+  border: 5px solid brown;
+  margin: 5% 24%;
+  background-color: rgb(255, 247, 130);
+}
+
+.score-box {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(31, 48, 197)
+}

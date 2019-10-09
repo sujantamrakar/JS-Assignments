@@ -1,0 +1,35 @@
+.carousel-container{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.carousel-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel-wrapper img{
+    float: left;
+}
+
+.next {
+    right: 15px;
+    position: absolute;
+    color: rgb(255, 255, 255,0.6);
+    font-size: 80px;
+    top: 35%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.previous {
+    left: 15px;
+    position: absolute;
+    color: rgb(255, 255, 255,0.6);
+    font-size: 80px;
+    top: 35%;
+    cursor: pointer;
+    text-decoration: none;
+}
